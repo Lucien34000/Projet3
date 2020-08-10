@@ -1,0 +1,20 @@
+.footer {
+    background-color: $color-primary;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    &__link {
+        font-size: 1.3rem;
+        text-align: center;
+        & a {
+            color: $color-secondary;
+            margin: 0 2%;
+            @media (min-width: 700px) {
+                margin: 0 6%;
+            }
+        }
+    }
+
+}

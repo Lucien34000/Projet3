@@ -1,0 +1,17 @@
+a {
+    text-decoration: none;
+}
+.core__next {
+    display: flex;
+    justify-content: center;
+    &__coming {
+        font-family: sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: $color-secondary;
+        background: $color-primary;
+        margin: 50px 0 150px 0;
+        padding: 10px 40px;
+        border-radius: 10px;
+    }
+}     

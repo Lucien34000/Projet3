@@ -1,5 +1,157 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 16px;
+}
+
 body {
-  background: grey;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: "Kalam";
+}
+
+a {
+  font-family: sans-serif, "Montserrat";
+}
+
+.menu__title {
+  font-family: "Kalam";
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.menu__title-chic {
+  font-family: "Vidaloka";
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.menu__restaurant1 {
+  font-family: "Devonshire";
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.menu__restaurant2 {
+  font-family: "Kurale";
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.menu__restaurant3 {
+  font-family: "Dancing Script";
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.menu__restaurant4 {
+  font-family: "Kaushan Script";
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+.core__next {
+  display: flex;
+  justify-content: center;
+}
+.core__next__coming {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #FDCB46;
+  background: #579C87;
+  margin: 50px 0 150px 0;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+
+.header {
+  background-color: #579C87;
+  display: flex;
+  justify-content: center;
+}
+.header__logo {
+  width: 250px;
+}
+
+.core {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+@media (min-width: 700px) {
+  .core__block {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 800px;
+  }
+}
+.core__block__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  text-align: center;
+  width: 260px;
+  height: 350px;
+  box-shadow: 0 0 7px #cccccc;
+}
+.core__block__menu-note {
+  background: #FCDFDB;
+  color: #3c1218;
+}
+.core__block__menu-chic {
+  background: #FFF5FE;
+  color: #0887fb;
+}
+.core__block__menu-delice {
+  background: #F9F9F9;
+  color: #c67412;
+}
+.core__block__menu-palette {
+  background: #FDFFFD;
+  color: #42973c;
+}
+
+.footer {
+  background-color: #579C87;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}
+.footer__link {
+  font-size: 1.3rem;
+  text-align: center;
+}
+.footer__link a {
+  color: #FDCB46;
+  margin: 0 2%;
+}
+@media (min-width: 700px) {
+  .footer__link a {
+    margin: 0 6%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

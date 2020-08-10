@@ -1,0 +1,28 @@
+p {
+    font-family: 'Kalam';
+}
+
+a {
+    font-family: sans-serif, 'Montserrat';
+}
+
+.menu__title {
+    @include title-menu($font-primary);
+    &-chic {
+        @include title-menu($font-chic);
+    }
+}
+
+.menu__restaurant1 {
+    @include restaurant-name($font-restaurant1)
+}
+
+.menu__restaurant2 {
+    @include restaurant-name($font-restaurant2)
+}
+.menu__restaurant3 {
+    @include restaurant-name($font-restaurant3)
+}
+.menu__restaurant4 {
+    @include restaurant-name($font-restaurant4)
+}
