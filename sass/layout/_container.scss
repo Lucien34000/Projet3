@@ -18,11 +18,22 @@
             justify-content: center;
             @include menu-back;
 
-            &-note{
+            &-note {
                 @include menu-back-color($color-menu-note, $color-font-note);
+                align-items: center;
+               
+                &--img {
+                    width: 50px;
+                    margin-bottom: -25px;
+                }
+
+                &--big {
+                    text-transform: uppercase;
+                }
             }
             &-chic{
                 @include menu-back-color($color-menu-chic, $color-font-chic);
+               
             }
             &-delice{
                 @include menu-back-color($color-menu-delice, $color-font-delice);

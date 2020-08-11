@@ -26,41 +26,54 @@ a {
   font-family: "Kalam";
   font-size: 32px;
   line-height: 36px;
-  font-weight: 700;
+  font-weight: 500;
 }
 .menu__title-chic {
   font-family: "Vidaloka";
   font-size: 32px;
   line-height: 36px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .menu__restaurant1 {
   font-family: "Devonshire";
-  font-size: 22px;
+  font-size: 24px;
   line-height: 26px;
-  font-weight: 700;
+  font-weight: 500;
+  margin: 20px 0;
 }
 
 .menu__restaurant2 {
   font-family: "Kurale";
-  font-size: 22px;
+  font-size: 24px;
   line-height: 26px;
-  font-weight: 700;
+  font-weight: 500;
+  margin: 20px 0;
+  background: linear-gradient(90deg, #c67412 0%, #6e4ccc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu__restaurant3 {
   font-family: "Dancing Script";
-  font-size: 22px;
+  font-size: 24px;
   line-height: 26px;
-  font-weight: 700;
+  font-weight: 500;
+  margin: 20px 0;
+  background: linear-gradient(90deg, #0431df 0%, #0887fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .menu__restaurant4 {
   font-family: "Kaushan Script";
-  font-size: 22px;
+  font-size: 24px;
   line-height: 26px;
-  font-weight: 700;
+  font-weight: 500;
+  margin: 20px 0;
+  background: linear-gradient(90deg, #42973c 0%, #bfff7e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 a {
@@ -88,7 +101,8 @@ a {
   justify-content: center;
 }
 .header__logo {
-  width: 250px;
+  width: 220px;
+  margin: 20px 0;
 }
 
 .core {
@@ -118,20 +132,32 @@ a {
 .core__block__menu-note {
   background: #FCDFDB;
   color: #3c1218;
+  align-items: center;
+}
+.core__block__menu-note--img {
+  width: 50px;
+  margin-bottom: -25px;
+}
+.core__block__menu-note--big {
+  text-transform: uppercase;
 }
 .core__block__menu-chic {
   background: #FFF5FE;
-  color: #0887fb;
+  color: #c67412;
 }
 .core__block__menu-delice {
   background: #F9F9F9;
-  color: #c67412;
+  color: #0887fb;
 }
 .core__block__menu-palette {
   background: #FDFFFD;
   color: #42973c;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+}
 .footer {
   background-color: #579C87;
   position: fixed;

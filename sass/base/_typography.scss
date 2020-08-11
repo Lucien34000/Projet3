@@ -14,15 +14,19 @@ a {
 }
 
 .menu__restaurant1 {
-    @include restaurant-name($font-restaurant1)
+    @include restaurant-name($font-restaurant1);
 }
 
 .menu__restaurant2 {
-    @include restaurant-name($font-restaurant2)
+    @include restaurant-name($font-restaurant2);
+    @include gradient($color-font-chic, $color-font-chic3);
 }
 .menu__restaurant3 {
-    @include restaurant-name($font-restaurant3)
+    @include restaurant-name($font-restaurant3);
+    @include gradient($color-font-delice2, $color-font-delice);
 }
 .menu__restaurant4 {
-    @include restaurant-name($font-restaurant4)
+    @include restaurant-name($font-restaurant4);
+    @include gradient($color-font-palette, $color-font-palette2);
+  
 }
