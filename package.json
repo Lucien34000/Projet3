@@ -1,0 +1,11 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "Intégration de la maquette pour OhMyFood!",
+  "main": "index.js",
+  "scripts": {
+    "sass" : "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "author": "Lucien Arbieu",
+  "license": "ISC"
+}
