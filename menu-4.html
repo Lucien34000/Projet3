@@ -5,62 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700%7CDancing+Script%7CDevonshire%7CKalam%7CKaushan+Script%7CKurale%7CVidaloka&display=swap" >
+    <link rel="icon" type="image/png" href="img/favicon.png">
     <title>OhMyFood!</title>
 </head>
 
 <body>
-    <header class="header">
-        <a href="index.html">
-            <img src="img/logo.png" alt="Logo de la société Ohmyfood!" class="header__logo" >
-        </a>
-    </header>
+    <!-- HEADER -->
+   <header class="header">
+       <a href="index.html">
+           <img src="img/logo.png" alt="Logo de la société Ohmyfood!" class="header__logo">
+       </a>
+   </header>
 
-    <main class="core">
-        <h1>La palette du goût</h1>
-        <div class="page">
-            <h2>La palette du goût</h2>
+   <main class="main">
+         <!-- TITRE DE LA PAGE -->
+        <h1 class="main__title">La palette du goût</h1>
+
+         <!-- HEADER DU MENU -->
+        <div class= "main__page main__page--palette">
+            <h2 class="main__page__title--palette ">La palette du goût</h2>
+            
+             <!-- BLOC 1 -->
             <article>
-                <img src="img/palette_gauche.png" alt="">
-                <h3>Esquisse</h3>
-                <img src="img/palette_droit.png" alt="">
-                <div class="list">
+                <div class="main__page__header">
+                    <img src="img/palette_gauche.png" alt="" class="main__page__header--trait">
+                    <h3 class="main__page__header--title">Esquisse</h3>
+                    <img src="img/palette_droit.png" alt="" class="main__page__header--trait">
+                </div>
+                
+                <div class="main__page__list main__page__list--palette">
                     <ul>
-                        <li><p class="information">Fricassée d'escargot au piment d'espelette</p><p class="price">60€</p>
+                        <li class="main__page__list--line"><p>Fricassée d'escargot au piment d'espelette</p><p class="main__page__list--price">60€</p>
                         </li>
-                        <li><p class="information">Oeuf au plat assaisonné à la truffe sur lit de caviar</p><p class="price">55€</p>
+                        <li class="main__page__list--line"><p>Oeuf au plat assaisonné à la truffe sur lit de caviar</p><p class="main__page__list--price">55€</p>
                         </li>
-                        <li><p class="information">Foie gras de canard mi-cuit et ses copeaux de truffe noire</p><p class="price">60€</p>
+                        <li class="main__page__list--line"><p>Foie gras de canard mi-cuit et ses copeaux de truffe noire</p><p class="main__page__list--price">60€</p>
                         </li>
                     </ul>
                 </div>
             </article>
+
+            <!-- BLOC 2 -->
             <article>
-                <img src="img/palette_gauche.png" alt="">
-                <h3>Oeuvre de maître</h3>
-                <img src="img/palette_droit.png" alt="">
-                <div class="list">
+                <div class="main__page__header">
+                    <img src="img/palette_gauche.png" alt="" class="main__page__header--trait">
+                    <h3 class="main__page__header--title">Oeuvre de maître</h3>
+                    <img src="img/palette_droit.png" alt="" class="main__page__header--trait">
+                </div>
+                
+                <div class="main__page__list main__page__list--palette">
                     <ul>
-                        <li><p class="information">Filet de boeuf aux herbes accompagné de sa ribambelle de légumes</p><p class="price">70€</p>
+                        <li class="main__page__list--line"><p>Filet de boeuf aux herbes accompagné de sa ribambelle de légumes</p><p class="main__page__list--price">70€</p>
                         </li>
-                        <li><p class="information">Parmentier de queue de boeuf à la truffe noire sur sa purée de panais</p><p class="price">90€</p>
+                        <li class="main__page__list--line"><p>Parmentier de queue de boeuf à la truffe noire sur sa purée de panais</p><p class="main__page__list--price">90€</p>
                         </li>
-                        <li><p class="information">Filet de Turbot aux agrumes</p><p class="price">125€</p>
+                        <li class="main__page__list--line"><p>Filet de Turbot aux agrumes</p><p class="main__page__list--price">125€</p>
                         </li>
                     </ul>
                 </div>
             </article>
+
+             <!-- BLOC 3 -->
             <article>
-                <img src="img/palette_gauche.png" alt="">
-                <h3>Gourmandises sucrées</h3>
-                <img src="img/palette_droit.png" alt="">
-                <div class="list">
+                <div class="main__page__header">
+                    <img src="img/palette_gauche.png" alt="" class="main__page__header--trait">
+                    <h3 class="main__page__header--title">Au sommet de l'art</h3>
+                    <img src="img/palette_droit.png" alt="" class="main__page__header--trait">
+                </div>
+                
+                <div class="main__page__list--palette">
                     <ul>
-                        <li><p class="information">Paris-Brest revisité</p><p class="price">55€</p>
+                        <li class="main__page__list--line"><p>Paris-Brest revisité</p><p class="main__page__list--price">55€</p>
                         </li>
-                        <li><p class="information">Macaron au chocolat d'exception et glace à la vanille de Madagascar
-                        </p><p class="price">65€</p>
+                        <li class="main__page__list--line"><p>Macaron au chocolat d'exception et glace à la vanille de Madagascar
+                        </p><p class="main__page__list--price">65€</p>
                         </li>
-                        <li><p class="information">Mousse au chocolat au piment d'espelette et à la truffe noire</p><p class="price">60€</p>
+                        <li class="main__page__list--line"><p>Mousse au chocolat au piment d'espelette et à la truffe noire</p><p class="main__page__list--price">60€</p>
                         </li>
                     </ul>
                 </div>

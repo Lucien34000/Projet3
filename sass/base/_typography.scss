@@ -1,5 +1,7 @@
-p {
-    font-family: 'Kalam';
+$base-font-size: 16px!default;
+
+body {
+    font-size: $base-font-size;
 }
 
 a {
@@ -20,6 +22,7 @@ a {
 .menu__restaurant2 {
     @include restaurant-name($font-restaurant2);
     @include gradient($color-font-chic, $color-font-chic3);
+    
 }
 .menu__restaurant3 {
     @include restaurant-name($font-restaurant3);

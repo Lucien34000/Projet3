@@ -9,14 +9,13 @@
         margin: 30px 0;
         font-family: 'Montserrat';
     }
-    
-  
+
    &__page {
         background: $color-menu-note;
         box-shadow: 0 0 10px #dddddd;
         font-family: $font-primary;
         max-width: 800px;
-        padding: 40px;
+        padding: 80px 40px;
         @media (max-width: 700px) {
             padding: 40px 10px;
         }
@@ -24,20 +23,7 @@
         &__article {
             display: inline-block;
             justify-content: space-between;
-        }
-
-        &__title {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            font-family: $font-restaurant1;
             color: $color-font-note;
-            font-size: 50px;
-            font-weight: 400;
-            @media (max-width: 700px) {
-                font-size: 40px;
-            }
         }
 
         &__header {
@@ -54,20 +40,15 @@
             }
 
             &--title {
-                font-size: 30px;
-                color: $color-font-note;
+                font-size: 18px;
                 @media (max-width: 700px) {
-                    font-size: 20px;
+                    font-size: 18px;
                 }
             }
         }
 
         &__list {
-            padding: 0 30px;
-            @media (max-width: 700px) {
-                padding: 0 20px;
-            }
-
+            
             &--line {
                 display: flex;
                 justify-content: space-between;
@@ -75,42 +56,13 @@
             }
 
             &--price {
-                font-size: 20px;
+                font-size: 18px;
                 font-weight: 700;
-                color: $color-font-note;
                 @media (max-width: 700px) {
-                    font-size: 16px;
                     margin-left: 10px;
                 }
             }
             
-        }
-
-        &__footer {
-            display: flex;
-            justify-content: center;
-            margin: 50px 0;
-
-            &--title {
-                font-family: $font-restaurant1;
-                font-size: 35px;
-                font-weight: 400;
-                @media (max-width: 700px) {
-                    font-size: 25px;
-                }
-            }
-
-            &--img {
-                width: 50px;
-                vertical-align: middle;
-                @media (max-width: 700px) {
-                   width: 40px;
-                }
-
-            }
-        }
-            
-   }
-
-   
+        }    
+   } 
 }
