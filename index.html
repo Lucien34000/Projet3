@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/style.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Montserrat:700%7CDancing+Script%7CDevonshire%7CKalam%7CKaushan+Script%7CKurale%7CVidaloka&display=swap">
-        <link rel="icon" type="image/png" href="img/favicon.png">
-    <title>OhMyFood!</title>
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Montserrat:700%7CDancing+Script%7CDevonshire%7CKalam%7CKaushan+Script%7CKurale%7CVidaloka&display=swap">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>OhMyFood! - Réservation de restaurants et de composition de menus en ligne à Paris</title>
+    <meta name="description" content="ohmyfood est un site web de réservation de restaurants et de composition de menus en ligne. Plus de perte de temps à consulter la carte !"/>
 </head>
 
 <body>
@@ -24,38 +23,53 @@
             <!-- Menu la note enchantée -->
             <a href="menu-1.html">
                 <div class="core__block__menu core__block__menu-note">
-                    <img src="img/note.png" alt="" class="core__block__menu-note--img">
-                    <h2 class="menu__restaurant1">La note enchantée</h2>
-                    <h2 class="menu__title core__block__menu-note--big">Menu</h2>
+                    <div class="core__block__menu--hover">
+                        <img src="img/note.png" alt="" class="core__block__menu-note--img">
+                        <h2 class="menu__restaurant1">La note enchantée</h2>
+                        <h2 class="menu__title core__block__menu-note--big">Menu</h2>
+                    </div>
                 </div>
             </a>
 
             <!-- Menu le chic à la française -->
             <a href="menu-2.html">
                 <div class="core__block__menu core__block__menu-chic">
-                    <h2 class="menu__restaurant2">Le chic à la française</h2>
-                    <h2 class="menu__title-chic">Menu</h2>
+                    <div class="core__block__menu--hover">
+                        <h2 class="menu__restaurant2">Le chic à la française</h2>
+                        <h2 class="menu__title-chic">Menu</h2>
+                    </div>
                 </div>
             </a>
 
             <!-- Menu le délice des papilles -->
             <a href="menu-3.html">
                 <div class="core__block__menu core__block__menu-delice">
-                    <h2 class="menu__restaurant3">Le délice des papilles</h2>
-                    <h2 class="menu__title">Menu</h2>
+                    <div class="core__block__menu--hover">
+                        <h2 class="menu__restaurant3">Le délice des papilles</h2>
+                        <h2 class="menu__title">Menu</h2>
+                    </div> 
                 </div>
             </a>
 
             <!-- Menu la palette du goût -->
             <a href="menu-4.html">
                 <div class="core__block__menu core__block__menu-palette">
-                    <h2 class="menu__restaurant4">La palette du goût</h2>
-                    <h2 class="menu__title">Menu</h2>
+                    <div class="core__block__menu--hover">
+                        <h2 class="menu__restaurant4">La palette du goût</h2>
+                        <h2 class="menu__title">Menu</h2>
+                    </div>
                 </div>
             </a>
         </div>
         <div class="core__next">
-            <h3 class="core__next__coming">Prochainement...</h3>
+            <h3 class="core__next__coming">
+                Prochainement
+                <div class="core__next__coming-container">
+                    <div class="core__next__coming-container-dot core__next__coming-container-dot-1"></div>
+                    <div class="core__next__coming-container-dot core__next__coming-container-dot-2"></div>
+                    <div class="core__next__coming-container-dot core__next__coming-container-dot-3"></div>
+                </div>
+            </h3>
         </div>
     </main>
 

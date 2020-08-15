@@ -1,10 +1,11 @@
-a {
-    text-decoration: none;
+ a {
+   text-decoration: none;
 }
 .core__next {
     display: flex;
     justify-content: center;
     &__coming {
+        display: flex;
         font-family: sans-serif;
         font-size: 1.5rem;
         font-weight: 400;
@@ -13,5 +14,46 @@ a {
         margin: 50px 0 150px 0;
         padding: 10px 40px;
         border-radius: 10px;
+        &-container {
+            display: flex;
+            align-items: flex-end;
+            margin-bottom: 5px;
+            justify-content: space-between;
+            width: 25px;
+            margin-left: 5px;
+            &-dot {
+                width: 6px;
+                height: 6px;
+                border-radius: 50%;
+                background: $color-secondary;
+            }
+                &-dot-1 {
+                    animation: popin-dots;
+                    animation-duration: .5s;
+                    animation-timing-function: ease;
+                    animation-delay: 0s;
+                    animation-iteration-count: infinite;
+                    animation-direction: alternate;
+                }
+                &-dot-2 {
+                    animation: popin-dots .5s ease .2s infinite alternate;
+                }
+                &-dot-3 {
+                    animation: popin-dots .5s ease .4s infinite alternate;
+                }
+
+                @keyframes popin-dots {
+                    from {
+                        opacity: 1;
+                        transform: scale(1.2);
+                    } to {
+                        opacity: 0.20;
+                        transform: scale(0.8);
+                    }
+            }
+        }
     }
+    
+   
 }     
+

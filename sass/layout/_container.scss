@@ -17,6 +17,11 @@
             flex-direction: column;
             justify-content: center;
             @include menu-back;
+            &--hover:hover {
+                transform: scale(1.1);
+                transition: 800ms;
+                opacity: 0.7;
+            }
 
             &-note {
                 @include menu-back-color($color-menu-note, $color-font-note);
